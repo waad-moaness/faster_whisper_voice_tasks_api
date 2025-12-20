@@ -4,3 +4,5 @@ numpy==1.26.4
 contractions==0.1.73
 num2words==0.5.13
 requests>=2.30
+uvicorn[standard]
+gunicorn
