@@ -73,7 +73,7 @@ def sequance_matching_score(target_tokens, transcription_tokens):
     else:
         final_score = int((correct_words_count / total_teacher_words) * 100)
 
-    return final_score, report
+    return final_score, report , correct_words_count
 
 
 
